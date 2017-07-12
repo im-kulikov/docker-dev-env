@@ -34,6 +34,7 @@
 - [MySQL](./MySQL.md)
 - [PostgreSQL](./PostgreSQL.md)
 - [RethinkDB](./RethinkDB.md)
+- [Redis](./Redis.md)
 
 # License (EN):
 
