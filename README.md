@@ -34,6 +34,7 @@
 
 - [MongoDB](./MongoDB.md) 
 - [MySQL](./MySQL.md)
+- [TiDB](./TiDB.md)
 - [PostgreSQL](./PostgreSQL.md)
 - [RethinkDB](./RethinkDB.md)
 - [Redis](./Redis.md)
