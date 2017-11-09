@@ -1,4 +1,4 @@
-# Настройка VSCode:
+# [DEPRECATED] Настройка VSCode (use GoLand instead):
 
 Содержимое `${workspaceRoot}/.vscode/settings.json`:
 
