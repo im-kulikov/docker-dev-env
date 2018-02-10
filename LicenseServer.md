@@ -1,4 +1,4 @@
-# Настраиваем LicenseServer:
+# Setup LicenseServer:
 
 ```bash
 docker run --restart always \

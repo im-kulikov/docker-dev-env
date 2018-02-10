@@ -1,4 +1,4 @@
-# Настраиваем MySQL:
+# Setup MySQL:
 
 ```bash
 docker run --restart always \

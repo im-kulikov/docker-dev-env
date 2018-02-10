@@ -1,4 +1,4 @@
-# Настраиваем PostgreSQL:
+# Setup PostgreSQL:
 
 ```bash
 docker run --restart always \

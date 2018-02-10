@@ -1,4 +1,4 @@
-# Настраиваем MongoDB:
+# Setup MongoDB:
 
 ```bash
 docker run --restart always \

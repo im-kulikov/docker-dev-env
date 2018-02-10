@@ -1,4 +1,4 @@
-# Настраиваем TiDB:
+# Setup TiDB:
 
 ```bash
 docker run --restart always \

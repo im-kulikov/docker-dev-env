@@ -1,41 +1,35 @@
-# О репозитории:
+# About:
 
-Так как нет желания устанавливать СУБД прямо в систему,
-было принято решение оставить их в контейнерах.
+I had no desire to install all software locally, so I decided to use containers and Docker.
 
-Добавил так же настройку для работы с VSCode / Golang
+## Why:
 
-## Зачем:
+- get a more recent and stable version
+- ability to use multiple versions simultaneously
+- can easily migrate to new hardware without losing data
+- at any time, we can reconfigure the software for myself
+- easily and quickly raise the developer's environment
+- do not clog the system
 
-- получаем более свежую и стабильную версию
-- можем без проблем мигрировать на новое железо без потери данных
-- в любой момент можем перенастроить СУБД под себя
-- можем поднять сколь угодно разных версий
-- удобно и быстро поднять окружение разработчика
-- не засоряем систему
+## Corrections:
 
-## Для кого:
+I raised this repository for myself, but you can also easily use it for your purposes.
 
-Данный репозиторий я поднимаю для себя,
-но вы так же можете без проблем использовать его для 
-своих целей.
+Most importantly, replace the path and adjust the settings for yourself.
 
-Главное - замените пути и поправьте настройки под себя.
+## Attention:
 
-## Внимание:
+I use this repository and setup for the sole purpose of research, development ON on my device and only for research purposes.
 
-Автор использует репозиторий и настройки исключительно в целях
-разработки ПО на своём устройстве.
+For use in 'production', you need to take care of safety!
 
-Для использования на `production` серверах необходимо позаботиться
-о безопасности!
-
-## Содержимое:
+## Contents:
 
 - [MongoDB](./MongoDB.md) 
 - [MySQL](./MySQL.md)
 - [TiDB](./TiDB.md)
 - [PostgreSQL](./PostgreSQL.md)
+- [RabbitMQ](./RabbitMQ.md)
 - [RethinkDB](./RethinkDB.md)
 - [Redis](./Redis.md)
 - [VSCode](./VSCode.md)
@@ -50,13 +44,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-# License (RU):
-
-Copyright © 2017 Evgeniy Kulikov
-
-Данная лицензия разрешает лицам, получившим копию данного программного обеспечения и сопутствующей документации (в дальнейшем именуемыми «Программное Обеспечение»), безвозмездно использовать Программное Обеспечение без ограничений, включая неограниченное право на использование, копирование, изменение, слияние, публикацию, распространение, сублицензирование и/или продажу копий Программного Обеспечения, а также лицам, которым предоставляется данное Программное Обеспечение, при соблюдении следующих условий:
-
-Указанное выше уведомление об авторском праве и данные условия должны быть включены во все копии или значимые части данного Программного Обеспечения.
-
-ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И ОТСУТСТВИЯ НАРУШЕНИЙ, НО НЕ ОГРАНИЧИВАЯСЬ ИМИ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО КАКИМ-ЛИБО ИСКАМ, ЗА УЩЕРБ ИЛИ ПО ИНЫМ ТРЕБОВАНИЯМ, В ТОМ ЧИСЛЕ, ПРИ ДЕЙСТВИИ КОНТРАКТА, ДЕЛИКТЕ ИЛИ ИНОЙ СИТУАЦИИ, ВОЗНИКШИМ ИЗ-ЗА ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫХ ДЕЙСТВИЙ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.

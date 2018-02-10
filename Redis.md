@@ -1,4 +1,4 @@
-# Настраиваем Redis:
+# Setup Redis:
 
 ```bash
 docker run --restart always \

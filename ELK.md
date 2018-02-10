@@ -1,4 +1,4 @@
-# Настраиваем ELK-stack:
+# Setup ELK-stack:
 
 ```bash
 docker run --restart always \

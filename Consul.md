@@ -1,4 +1,4 @@
-# Настраиваем Consul:
+# Setup Consul:
 
 ```bash
 docker run --restart always \

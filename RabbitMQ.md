@@ -1,4 +1,4 @@
-# Настраиваем RabbitMQ:
+# Setup RabbitMQ:
 
 ```bash
 docker run --restart always \

@@ -1,6 +1,6 @@
-# [DEPRECATED] Настройка VSCode (use GoLand instead):
+# [DEPRECATED] Setup VSCode (use GoLand instead):
 
-Содержимое `${workspaceRoot}/.vscode/settings.json`:
+Contents of `${workspaceRoot}/.vscode/settings.json`:
 
 ```json
 {
@@ -10,7 +10,7 @@
 }
 ```
 
-Содержимое `${workspaceRoot}/.vscode/launch.json`:
+Contents of `${workspaceRoot}/.vscode/launch.json`:
 
 ```json
 {
@@ -33,7 +33,7 @@
 }
 ```
 
-Содержимое `${workspaceRoot}/.vscode/tasks.json`:
+Contents of `${workspaceRoot}/.vscode/tasks.json`:
 
 ```json
     // See https://go.microsoft.com/fwlink/?LinkId=733558
@@ -53,7 +53,7 @@
 }
 ```
 
-Ставим [Dep](https://github.com/golang/dep):
+Use [Dep](https://github.com/golang/dep):
 
 ```bash
 $ brew install dep

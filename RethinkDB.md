@@ -1,4 +1,4 @@
-# Настраиваем RethinkDB:
+# Setup RethinkDB:
 
 ```bash
 docker run --restart always \
